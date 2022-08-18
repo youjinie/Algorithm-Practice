@@ -10,8 +10,8 @@ public class prac_5 {
 		int count; // 나눠진 횟수를 카운트 하는 변수
 
 		Scanner sc = new Scanner(System.in);
-		M = sc.nextInt(); // 정수 N
-		N = sc.nextInt(); // 정수 M
+		M = sc.nextInt(); // 정수 M
+		N = sc.nextInt(); // 정수 N
 
 		while (M <= N) { // M이상 N이하 소수 찾기
 			count = 0; // 횟수 초기화
